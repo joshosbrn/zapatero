@@ -1,0 +1,37 @@
+.space-mono {
+  font-family: 'Space Mono', monospace; }
+
+.w6 {
+  width: 30rem; }
+
+.w4 {
+  width: 10rem; }
+
+.max-center {
+  height: 50%;
+  width: 50%;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0; }
+
+.rot-left {
+  transform-origin: left top;
+  transform: rotate(-90deg) translateX(-100%);
+  width: 100vh;
+  height: 50px; }
+
+.rot-right {
+  transform-origin: right top;
+  transform: rotate(90deg) translateX(100%);
+  width: 100vh;
+  height: 50px; }
+
+.bg-cream {
+  background-color: #e7dbd0; }
+
+.tracked-med {
+  letter-spacing: .05em; }
