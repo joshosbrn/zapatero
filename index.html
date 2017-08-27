@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<div class="pa5 mt4 center mt f6">
+  {% for film in site.data.films %}
+      <a class="link white" href="{{ film.url }}">
+        <img class="mb2 mt3" src="{{ site.baseurl }}/images/{{ film.thumbnail }}">
+      </a>
+      <div class="mb6 w-50 fl">
+        <p class="mv2">{{ film.title }}</p>
+        <p class="mv2">Director: {{ film.director }}</p>
+        <p class="mv2">Producer: {{ film.producer }}</p>
+      </div>
+      <div class="w-50 fl tr mv2"><a class="link white" href="#">Details &rarr;</a></div>
+    <div class="cf"></div>
+  {% endfor %}
+</div>
