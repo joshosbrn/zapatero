@@ -2,7 +2,7 @@
 title: Zapatero
 version: "v1"
 description: ""
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/zapatero" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 
 # Tachyons Version
